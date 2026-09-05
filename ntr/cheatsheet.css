@@ -1,0 +1,18 @@
+
+body{
+    background-color: darkgray;
+    color:whitesmoke;
+}
+
+.div{
+    padding: 1%;
+    margin-bottom: 1%;
+    border: 5px solid whitesmoke;
+}
+    #core{
+        background-color: cadetblue;
+    }
+
+    #shapes{
+    background-color: brown;
+    }
