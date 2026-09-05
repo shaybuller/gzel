@@ -1,6 +1,6 @@
 # NTR Rendering Library
 
-**NTR** is a fast, lightweight C graphics library for Linux. It runs directly on **OpenGL** and **XCB** without any extra bloat or heavy frameworks.
+**NTR** is a fast, lightweight C graphics library for Linux. It runs directly on **OpenGL** and **XCB** without any extra bloat
 
 ---
 
@@ -18,7 +18,7 @@
 
 For `gcc` and the Linux runtime linker (`ld.so`) to automatically discover your library without needing complex local paths, the shared library file must reside in a standard system directory:
 
-* **Header Path:** `/usr/locl/include/ntr/ntr.h` *(Where `gcc` searches when you write `#include <ntr/ntr.h>`)*
+* **Header Path:** `/usr/local/include/ntr/ntr.h` *(Where `gcc` searches when you write `#include <ntr/ntr.h>`)*
 * **Shared Object Path:** `/usr/lib/libntr.so`   *(Where `gcc` and Linux search when you pass `-lntr`)*
 
 > **Note:** Installing via the provided `.deb` package handles this placement automatically. If you are building manually or placing files yourself, ensure `libntr.so` is placed in `/usr/lib/` (or `/usr/local/lib/`).
