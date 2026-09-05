@@ -1,8 +1,9 @@
-### NTR — Lightweight C Rendering Engine
+# NTR Rendering Library
 
-NTR is a super un-bloated C rendering library designed for Linux environments using **OpenGL** and **XCB**. 
+**NTR** is a fast, lightweight C graphics library for Linux. It runs directly on **OpenGL** and **XCB** without any extra bloat or heavy frameworks.
 
-#### Features & Distribution
-- **Direct X11 / XCB Binding:** Native window creation and input handling.
-- **Minimal Footprint:** No external GUI framework overhead.
-- **Recommended Installation:** Install via the provided Debian package (`.deb`) for native system integration and dependency resolution.
+### Why Use NTR?
+* **Single Header File:** Just drop `<ntr/ntr.h>` into your C project to get started.
+* **Shared Library (`.so`):** Simple, lightweight dynamic library linkage
+* **Linux Native:** Built directly for Linux window systems (XCB) and OpenGL.
+* **Easy Installation:** Recommended install via Debian package (`.deb`).
