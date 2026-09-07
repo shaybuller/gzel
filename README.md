@@ -89,4 +89,3 @@ gcc example.c -lgzel -lxcb -lxcb-xkb -lEGL -lGL -lm -o example
     ],
     "version": 4
   }
-```
