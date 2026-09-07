@@ -50,6 +50,7 @@ int main()
     }
     return 0;
 }
+```
 
 ---
 
@@ -59,3 +60,4 @@ To compile your application, run the full `gcc` command:
 
 ```bash
 gcc example.c -lgzel -lxcb -lxcb-xkb -lEGL -lGL -lm -o example
+```
