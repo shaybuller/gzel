@@ -15,7 +15,7 @@
 
 ## 💡 Educational Guide:
 
-### 1. Where Does `libgzel.so` Live?
+### 1. Where Does `libgzel.so` & 'gzel.h' Live?
 
 For `gcc` and the Linux runtime linker (`ld.so`) to automatically discover your library without needing complex local paths, the shared library file must reside in a standard system directory:
 
