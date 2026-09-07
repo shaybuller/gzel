@@ -1,12 +1,12 @@
-# NONTRIG DirectMedia Library
+# GZEL Graphics and Nulti Media Library
 
-**NONTRIR** a lightweight C library for Linux. It runs directly on **OpenGL** and **XCB** without any extra bloat
+**GZEL** a lightweight C library for Linux. It runs directly on **OpenGL** and **XCB** without any extra bloat
 
 ---
 
 ## How It Works
 
-* **Single Header File:** Just drop `<nontrig/ntr.h>` into your C source code.
+* **Single Header File:** Just drop `<gzel/gzel.h>` into your C source code.
 * **Shared Library (`.so`):** Clean dynamic library linkage with zero heavy dependencies.
 * **Easy Installation:** Pre-packaged as a `.deb` package for quick setup on Debian and Ubuntu.
 
@@ -14,20 +14,48 @@
 
 ## 💡 Educational Guide: Shared Libraries & Linking
 
-### 1. Where Does `libntr.so` Live?
+### 1. Where Does `libgzel.so` Live?
 
 For `gcc` and the Linux runtime linker (`ld.so`) to automatically discover your library without needing complex local paths, the shared library file must reside in a standard system directory:
 
-* **Header Path:** `/usr/local/include/nontrig/ntr.h` *(Where `gcc` searches when you write `#include <nontrig/ntr.h>`)*
-* **Shared Object Path:** `/usr/lib/libntr.so`   *(Where `gcc` and Linux search when you pass `-lntr`)*
+* **Header Path:** `/usr/local/include/gzel/gzel.h` *(Where `gcc` searches when you write `#include <gzel/gzel.h>`)*
+* **Shared Object Path:** `/usr/lib/libgzel.so`   *(Where `gcc` and Linux search when you pass `-lgzel`)*
 
-> **Note:** Installing via the provided `.deb` package handles this placement automatically. If you are building manually or placing files yourself, ensure `libntr.so` is placed in `/usr/lib/` (or `/usr/local/lib/`).
+> **Note:** Installing via the provided `.deb` package handles this placement automatically. If you are building manually or placing files yourself, ensure `libgzel.so` is placed in `/usr/lib/` (or `/usr/local/lib/`).
 
 ---
 
-### 2. Full Compilation Command & Flag Breakdown
+### 2. Hello Triangle
+```bash
+#include <gzel/gzel.h>
+
+u16 screen_width  = 500;
+u16 screen_height = 500;
+
+int main()
+{   
+    gzel_set_window(screen_width, screen_height, "Hello Triangle");
+    gzel_link_gl_platfrom();
+
+    while (!gzel_window_should_close())
+    {   
+        // Begin Draw
+        gzel_egl_swap_buffers();
+        gzel_poll_events();
+        // Hello Triangle
+        gzel_clear_backgorund(CYAN);
+        gzel_tri((vec2f32){0,500}, (vec2f32){250,0}, (vec2f32){500,500}, RED);
+        // End Draw
+        gzel_reset_events();
+    }
+    return 0;
+}
+
+---
+
+### 3. Full Compilation Command & Flag Breakdown
 
 To compile your application, run the full `gcc` command:
 
 ```bash
-gcc example.c -lntr -lxcb -lxcb-xkb -lEGL -lGL -lm -o example
+gcc example.c -lgzel -lxcb -lxcb-xkb -lEGL -lGL -lm -o example
