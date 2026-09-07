@@ -69,7 +69,8 @@ gcc example.c -lgzel -lxcb -lxcb-xkb -lEGL -lGL -lm -o example
 * Extension: Install the official Microsoft C/C++ extension for AST-based syntax highlighting and semantic coloring.
 * Include Path: Press Ctrl+Shift+P -> C/C++: Edit Configurations (UI) -> Add header's directory to Include path `"/usr/local/include/gzel/**"`
 
-  You should end up with something like this:
+  You should end up with something similar:
+  
   ```bash
   {
     "configurations": [
@@ -87,5 +88,5 @@ gcc example.c -lgzel -lxcb -lxcb-xkb -lEGL -lGL -lm -o example
         }
     ],
     "version": 4
-}
-  ```
+  }
+```
