@@ -56,7 +56,7 @@ int main()
 
 ---
 
-### 3. Full Compilation Command For Desktop
+### 3. Full Compilation Command For Linux Desktop
 
 To compile your application, run the full `gcc` command:
 
