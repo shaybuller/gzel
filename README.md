@@ -54,7 +54,7 @@ int main()
 
 ---
 
-### 3. Full Compilation Command & Flag Breakdown
+### 3. Full Compilation Command For Desktop
 
 To compile your application, run the full `gcc` command:
 
