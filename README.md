@@ -12,7 +12,7 @@
 
 ---
 
-## 💡 Educational Guide: Shared Libraries & Linking
+## 💡 Educational Guide:
 
 ### 1. Where Does `libgzel.so` Live?
 
