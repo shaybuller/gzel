@@ -40,18 +40,16 @@ int main()
     while (!gzel_window_should_close())
     {   
         // Begin Draw
-        gzel_egl_swap_buffers();
-        gzel_poll_events();
+        gzel_start_cycle();
 
         // Hello Triangle
         gzel_clear_backgorund(CYAN);
         gzel_tri((vec2f32){0,500}, (vec2f32){250,0}, (vec2f32){500,500}, RED);
-
+        
         // End Draw
-        gzel_reset_events();
+        gzel_end_cycle();
     }
     return 0;
-}
 ```
 
 ---
