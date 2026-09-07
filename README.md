@@ -62,3 +62,30 @@ To compile your application, run the full `gcc` command:
 ```bash
 gcc example.c -lgzel -lxcb -lxcb-xkb -lEGL -lGL -lm -o example
 ```
+---
+
+### 4. get VS Code to properly color recognize (syntax highlight)
+
+* Extension: Install the official Microsoft C/C++ extension for AST-based syntax highlighting and semantic coloring.
+* Include Path: Press Ctrl+Shift+P -> C/C++: Edit Configurations (UI) -> Add header's directory to Include path `"/usr/local/include/gzel/**"`
+
+  You should end up with something like this:
+  ```bash
+  {
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include/gzel/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
+  ```
