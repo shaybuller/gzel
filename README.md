@@ -44,7 +44,7 @@ int main()
         gzel_start_cycle();
 
         // Hello Triangle
-        gzel_clear_backgorund(CYAN);
+        gzel_clear_background(CYAN);
         gzel_tri((vec2f32){0,500}, (vec2f32){250,0}, (vec2f32){500,500}, RED);
         
         // End Draw
