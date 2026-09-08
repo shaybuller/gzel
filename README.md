@@ -1,9 +1,9 @@
 $$
 \begin{aligned}
-&\color{#00bcd4}{\text{ ██████╗ }}\color{#ffaf37}{\text{ ███████╗}}\color{#00bcd4}{\text{    ███████╗}}\color{#ffaf37}{\text{ ██╗     }} \\
-&\color{#00bcd4}{\text{██╔════╝}}\color{#ffaf37}{\text{ ╚════██║}}\color{#00bcd4}{\text{    ██╔════╝}}\color{#ffaf37}{\text{ ██║     }} \\
-&\color{#00bcd4}{\text{██║  ███╗}}\color{#ffaf37}{\text{   ███╝ }}\color{#00bcd4}{\text{    █████╗  }}\color{#ffaf37}{\text{ ██║     }} \\
-&\color{#00bcd4}{\text{██║   ██║}}\color{#ffaf37}{\text{  ██╔╝  }}\color{#00bcd4}{\text{    ██╔══╝  }}\color{#ffaf37}{\text{ ██║     }} \\
+&\color{#00bcd4}{\text{ ██████╗ }}\color{#ffaf37}{\text{ ███████╗}}\color{#00bcd4}{\text{███████╗}}\color{#ffaf37}{\text{ ██╗     }} \\
+&\color{#00bcd4}{\text{██╔════╝}}\color{#ffaf37}{\text{ ╚════██║}}\color{#00bcd4}{\text{ ██╔════╝}}\color{#ffaf37}{\text{ ██║     }} \\
+&\color{#00bcd4}{\text{██║  ███╗}}\color{#ffaf37}{\text{   ███╝ }}\color{#00bcd4}{\text{ █████╗  }}\color{#ffaf37}{\text{ ██║     }} \\
+&\color{#00bcd4}{\text{██║   ██║}}\color{#ffaf37}{\text{  ██╔╝  }}\color{#00bcd4}{\text{ ██╔══╝  }}\color{#ffaf37}{\text{ ██║     }} \\
 &\color{#00bcd4}{\text{╚██████╔╝}}\color{#ffaf37}{\text{ ███████╗}}\color{#00bcd4}{\text{███████╗}}\color{#ffaf37}{\text{ ███████╗}} \\
 &\color{#00bcd4}{\text{ ╚═════╝ }}\color{#ffaf37}{\text{ ╚══════╝}}\color{#00bcd4}{\text{╚══════╝}}\color{#ffaf37}{\text{╚══════╝}}
 \end{aligned}
