@@ -10,7 +10,7 @@ const char *vertexShaderSource =
     "    gl_Position   = vec4(aPos, 1.0);\n"
     "}\n";
 
-const char *gzel_frag_shader_src(color c)
+const char *gzel_frag_shader_src(color_t c)
 {
     gzel_convert_color(&c);
     static c8 src[512];
@@ -56,7 +56,7 @@ void gzel_create_program(u32 *program, const char *vs_src, const char *fs_src)
     gzel_glDeleteShader(fs);
 }
 
-void gzel_tri(vec2f32 a, vec2f32 b, vec2f32 c, color col)
+void gzel_tri(vec2f32 a, vec2f32 b, vec2f32 c, color_t col)
 {
     gzel_map_floats(6, &a.x, &a.y, &b.x, &b.y, &c.x, &c.y);
 
@@ -93,7 +93,7 @@ void gzel_tri(vec2f32 a, vec2f32 b, vec2f32 c, color col)
     gzel_glDeleteProgram(program);
 }
 
-void gzel_line(vec2f32 start, vec2f32 end, f32 thick, color col)
+void gzel_line(vec2f32 start, vec2f32 end, f32 thick, color_t col)
 {   
     f32 dx, dy, m, deg;
     vec2f32 s2, e2;
@@ -165,7 +165,7 @@ void gzel_line(vec2f32 start, vec2f32 end, f32 thick, color col)
     gzel_glDeleteProgram(program);
 }
 
-void gzel_box(i16 x, i16 y, u16 width, u16 height, color col)
+void gzel_box(i16 x, i16 y, u16 width, u16 height, color_t col)
 {
     f32 vertices[] = {
         x,         y,          0,
@@ -211,11 +211,11 @@ void gzel_box(i16 x, i16 y, u16 width, u16 height, color col)
     gzel_glDeleteProgram(program);
 }
 
-void gzel_box_box(box_t box, color col) {
+void gzel_box_box(box_t box, color_t col) {
     gzel_box(box.x, box.y, box.w, box.h, col);
 }
 
-void gzel_poly(vec2f32 ctr, u8 sides, f32 radius, f32 rot, color col)
+void gzel_poly(vec2f32 ctr, u8 sides, f32 radius, f32 rot, color_t col)
 {
     float vertices[3 * (sides + 1)];
     memset(vertices, 0, sizeof(vertices));

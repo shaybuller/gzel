@@ -69,39 +69,39 @@ float gzel_get_degree(vec2f32 a, vec2f32 b);
 
 /*----------------------------Color-------------------------------------*/
 
-typedef struct color {
+typedef struct color_t {
     f32 r, g, b, a;
-} color;
+} color_t;
 
-#define LIGHTGRAY    (color){200,200,200,255}
-#define GRAY         (color){130,130,130,255}
-#define DARKGRAY     (color){80,80,80,255}
-#define CHARCOAL     (color){54,69,79,255}
-#define DARKCHARCOAL (color){48,48,48,255}
-#define YELLOW       (color){253,249,0,255}
-#define GOLD         (color){255,203,0,255}
-#define ORANGE       (color){255,161,0,255}
-#define PINK         (color){255,109,194,255}
-#define RED          (color){230,41,55,255}
-#define MAROON       (color){190,33,55,255}
-#define GREEN        (color){0,228,48,255}
-#define LIME         (color){0,158,47,255}
-#define DARKGREEN    (color){0,117,44,255}
-#define SKYBLUE      (color){102,191,255,255}
-#define CYAN         (color){0,255,255,255}
-#define BLUE         (color){0,121,241,255}
-#define DARKBLUE     (color){0,82,172,255}
-#define PURPLE       (color){200,122,255,255}
-#define VIOLET       (color){135,60,190,255}
-#define DARKPURPLE   (color){112,31,126,255}
-#define BEIGE        (color){211,176,131,255}
-#define BROWN        (color){127,106,79,255}
-#define DARKBROWN    (color){76,63,47,255}
-#define WHITE        (color){255,255,255,255}
-#define WHITESMOKE   (color){245,245,245,255}
-#define BLACK        (color){0,0,0,255}
-#define BLANK        (color){0,0,0,0}
-#define MAGENTA      (color){255,0,255,255}
+#define LIGHTGRAY    (color_t){200,200,200,255}
+#define GRAY         (color_t){130,130,130,255}
+#define DARKGRAY     (color_t){80,80,80,255}
+#define CHARCOAL     (color_t){54,69,79,255}
+#define DARKCHARCOAL (color_t){48,48,48,255}
+#define YELLOW       (color_t){253,249,0,255}
+#define GOLD         (color_t){255,203,0,255}
+#define ORANGE       (color_t){255,161,0,255}
+#define PINK         (color_t){255,109,194,255}
+#define RED          (color_t){230,41,55,255}
+#define MAROON       (color_t){190,33,55,255}
+#define GREEN        (color_t){0,228,48,255}
+#define LIME         (color_t){0,158,47,255}
+#define DARKGREEN    (color_t){0,117,44,255}
+#define SKYBLUE      (color_t){102,191,255,255}
+#define CYAN         (color_t){0,255,255,255}
+#define BLUE         (color_t){0,121,241,255}
+#define DARKBLUE     (color_t){0,82,172,255}
+#define PURPLE       (color_t){200,122,255,255}
+#define VIOLET       (color_t){135,60,190,255}
+#define DARKPURPLE   (color_t){112,31,126,255}
+#define BEIGE        (color_t){211,176,131,255}
+#define BROWN        (color_t){127,106,79,255}
+#define DARKBROWN    (color_t){76,63,47,255}
+#define WHITE        (color_t){255,255,255,255}
+#define WHITESMOKE   (color_t){245,245,245,255}
+#define BLACK        (color_t){0,0,0,255}
+#define BLANK        (color_t){0,0,0,0}
+#define MAGENTA      (color_t){255,0,255,255}
 
 #ifndef __EMSCRIPTEN__
 /*----------------------------XCB-------------------------------------*/
@@ -169,9 +169,9 @@ bool gzel_window_web_should_close();
 
 /*--------------------------SHAPE TYPES-----------------------------------*/
 
-typedef struct bool3{
+typedef struct bool3_t{
     bool x, y, z;
-} bool3;
+} bool3_t;
 
 typedef struct tri_t{
     vec2f32 a, b, c;
@@ -305,8 +305,8 @@ void gzel_disconnect_gl(void);
 #endif
 
 // core
-void gzel_convert_color    (color *c);
-void gzel_clear_backgorund (color c);
+void gzel_convert_color    (color_t *c);
+void gzel_clear_backgorund (color_t c);
 void gzel_start_cycle();
 
 #define gzel_end_cycle() gzel_reset_events()
@@ -314,11 +314,11 @@ void gzel_start_cycle();
 // shapes
 extern const char *vertexShaderSource;
 
-void gzel_tri      (vec2f32 a, vec2f32 b, vec2f32 c, color col);
-void gzel_line     (vec2f32 start, vec2f32 end, f32 thick, color col);
-void gzel_box      (i16 x, i16 y, u16 width, u16 height, color col);
-void gzel_box_box  (box_t box, color col);
-void gzel_poly     (vec2f32 ctr, u8 sides, f32 radius, f32 rot, color col);
+void gzel_tri      (vec2f32 a, vec2f32 b, vec2f32 c, color_t col);
+void gzel_line     (vec2f32 start, vec2f32 end, f32 thick, color_t col);
+void gzel_box      (i16 x, i16 y, u16 width, u16 height, color_t col);
+void gzel_box_box  (box_t box, color_t col);
+void gzel_poly     (vec2f32 ctr, u8 sides, f32 radius, f32 rot, color_t col);
 
 bool gzel_collide_pt_box     (vec2f32 pt, box_t box);
 bool gzel_collide_pt_tri     (vec2f32 pt, vec2f32 a, vec2f32 b, vec2f32 c);
@@ -326,4 +326,4 @@ bool gzel_collide_pt_poly    (vec2f32 pt, vec2f32 ctr, u16 sides, f32 radius);
 bool gzel_collide_pt_line    (vec2f32 pt, vec2f32 start, vec2f32 end, f32 thick);
 
 // texts
-void gzel_draw_text(const c8 *text, u16 pos_x, u16 pos_y, u16 font_size, color col);
+void gzel_draw_text(const c8 *text, u16 pos_x, u16 pos_y, u16 font_size, color_t col);

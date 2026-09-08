@@ -320,7 +320,7 @@ c8 * gzel_hex_to_binary(i32 hex_val)
     return buf;
 }
 
-void gzel_draw_text(const c8 *text, u16 pos_x, u16 pos_y, u16 font_size, color col)
+void gzel_draw_text(const c8 *text, u16 pos_x, u16 pos_y, u16 font_size, color_t col)
 {
     if(font_size >= 8) font_size = font_size /8;
     else font_size = 1;
