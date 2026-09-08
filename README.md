@@ -1,4 +1,4 @@
-# GZEL Graphics and Multi Media Library
+# GZEL Graphics Library
 
 * **GZEL** a lightweight C library for Linux. It runs directly on **OpenGL** and **XCB** without any extra bloat.
 * v26.9.0 is now stable.
