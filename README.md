@@ -90,3 +90,10 @@ gcc example.c -lgzel -lxcb -lxcb-xkb -lEGL -lGL -lm -o example
     ],
     "version": 4
   }
+
+---
+
+What's Next 
+* [ ] WebGL via Emscripten and WebAssembly (Wasm).
+* [ ] Introduction of 3D graphics capabilities
+* [ ] Android platform support via native activity integration
