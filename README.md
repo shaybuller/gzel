@@ -1,11 +1,13 @@
-<pre>
-<span style="color: #00bcd4;"> ██████╗</span><span style="color: #ffaf37;"> ███████╗</span>    <span style="color: #00bcd4;">███████╗</span> <span style="color: #ffaf37;">██╗     </span>
-<span style="color: #00bcd4;">██╔════╝</span><span style="color: #ffaf37;"> ╚════██║</span>    <span style="color: #00bcd4;">██╔════╝</span> <span style="color: #ffaf37;">██║     </span>
-<span style="color: #00bcd4;">██║  ███╗</span><span style="color: #ffaf37;">   ███╝ </span>   <span style="color: #00bcd4;">█████╗  </span> <span style="color: #ffaf37;">██║     </span>
-<span style="color: #00bcd4;">██║   ██║</span><span style="color: #ffaf37;">  ██╔╝  </span>   <span style="color: #00bcd4;">██╔══╝  </span> <span style="color: #ffaf37;">██║     </span>
-<span style="color: #00bcd4;">╚██████╔╝</span><span style="color: #ffaf37;"> ███████╗</span> <span style="color: #00bcd4;">███████╗</span> <span style="color: #ffaf37;">███████╗</span>
-<span style="color: #00bcd4;"> ╚═════╝ </span><span style="color: #ffaf37;"> ╚══════╝</span> <span style="color: #00bcd4;">╚══════╝</span> <span style="color: #ffaf37;">╚══════╝</span>
-</pre>
+$$
+\begin{aligned}
+&\color{#00bcd4}{\text{ ██████╗ }}\color{#ffaf37}{\text{ ███████╗}}\color{#00bcd4}{\text{    ███████╗}}\color{#ffaf37}{\text{ ██╗     }} \\
+&\color{#00bcd4}{\text{██╔════╝}}\color{#ffaf37}{\text{ ╚════██║}}\color{#00bcd4}{\text{    ██╔════╝}}\color{#ffaf37}{\text{ ██║     }} \\
+&\color{#00bcd4}{\text{██║  ███╗}}\color{#ffaf37}{\text{   ███╝ }}\color{#00bcd4}{\text{    █████╗  }}\color{#ffaf37}{\text{ ██║     }} \\
+&\color{#00bcd4}{\text{██║   ██║}}\color{#ffaf37}{\text{  ██╔╝  }}\color{#00bcd4}{\text{    ██╔══╝  }}\color{#ffaf37}{\text{ ██║     }} \\
+&\color{#00bcd4}{\text{╚██████╔╝}}\color{#ffaf37}{\text{ ███████╗}}\color{#00bcd4}{\text{███████╗}}\color{#ffaf37}{\text{ ███████╗}} \\
+&\color{#00bcd4}{\text{ ╚═════╝ }}\color{#ffaf37}{\text{ ╚══════╝}}\color{#00bcd4}{\text{╚══════╝}}\color{#ffaf37}{\text{╚══════╝}}
+\end{aligned}
+$$
 
 * **GZEL** a lightweight C library for Linux. It runs directly on **OpenGL** and **XCB** without any extra bloat.
 * v26.9.1 is now stable.
