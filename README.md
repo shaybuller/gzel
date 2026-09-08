@@ -2,8 +2,8 @@ $$
 \begin{aligned}
 &\color{#00bcd4}{\texttt{ ██████╗ }}\color{#ffaf37}{\texttt{ ███████╗}}\color{#00bcd4}{\texttt{ ███████╗}}\color{#ffaf37}{\texttt{ ██╗}} \\
 &\color{#00bcd4}{\texttt{██╔════╝ }}\color{#ffaf37}{\texttt{ ╚════██║}}\color{#00bcd4}{\texttt{ ██╔════╝ }}\color{#ffaf37}{\texttt{ ██║}} \\
-&\color{#00bcd4}{\texttt{██║  ███╗}}\color{#ffaf37}{\texttt{   ███╝ }}\color{#00bcd4}{\texttt{ █████╗   }}\color{#ffaf37}{\texttt{ ██║}} \\
-&\color{#00bcd4}{\texttt{██║   ██║}}\color{#ffaf37}{\texttt{  ██╔╝  }}\color{#00bcd4}{\texttt{ ██╔══╝   }}\color{#ffaf37}{\texttt{ ██║}} \\
+&\color{#00bcd4}{\texttt{██║    ███╗}}\color{#ffaf37}{\texttt{   ███╝ }}\color{#00bcd4}{\texttt{ █████╗   }}\color{#ffaf37}{\texttt{ ██║}} \\
+&\color{#00bcd4}{\texttt{██║     ██║}}\color{#ffaf37}{\texttt{  ██╔╝  }}\color{#00bcd4}{\texttt{ ██╔══╝   }}\color{#ffaf37}{\texttt{ ██║}} \\
 &\color{#00bcd4}{\texttt{╚██████╔╝}}\color{#ffaf37}{\texttt{ ███████╗}}\color{#00bcd4}{\texttt{ ███████╗}}\color{#ffaf37}{\texttt{ ███████╗}} \\
 &\color{#00bcd4}{\texttt{ ╚═════╝ }}\color{#ffaf37}{\texttt{ ╚══════╝}}\color{#00bcd4}{\texttt{ ╚══════╝}}\color{#ffaf37}{\texttt{ ╚══════╝}}
 \end{aligned}
