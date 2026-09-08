@@ -306,7 +306,7 @@ void gzel_disconnect_gl(void);
 
 // core
 void gzel_convert_color    (color_t *c);
-void gzel_clear_backgorund (color_t c);
+void gzel_clear_background (color_t c);
 void gzel_start_cycle();
 
 #define gzel_end_cycle() gzel_reset_events()
