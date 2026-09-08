@@ -1,9 +1,13 @@
-+ ██████╗  ███████╗   ███████╗  ██╗     
-+ ██╔════╝  ╚════██║  ██╔════╝ ██║     
-- ██║  ███╗    ███╝   █████╗   ██║     
-- ██║   ██║   ██╔╝    ██╔══╝   ██║     
-+ ╚██████╔╝ ███████╗  ███████╗ ███████╗
-+  ╚═════╝  ╚══════╝  ╚══════╝ ╚══════
+$$
+\begin{aligned}
+&\color{#00bcd4}{\texttt{ ██████╗ }}\color{#ffaf37}{\texttt{ ███████╗}}\color{#00bcd4}{\texttt{ ███████╗}}\color{#ffaf37}{\texttt{ ██╗      }} \\
+&\color{#00bcd4}{\texttt{██╔════╝ }}\color{#ffaf37}{\texttt{ ╚════██║}}\color{#00bcd4}{\texttt{ ██╔════╝ }}\color{#ffaf37}{\texttt{ ██║      }} \\
+&\color{#00bcd4}{\texttt{██║  ███╗}}\color{#ffaf37}{\texttt{   ███╝ }}\color{#00bcd4}{\texttt{ █████╗   }}\color{#ffaf37}{\texttt{ ██║      }} \\
+&\color{#00bcd4}{\texttt{██║   ██║}}\color{#ffaf37}{\texttt{  ██╔╝  }}\color{#00bcd4}{\texttt{ ██╔══╝   }}\color{#ffaf37}{\texttt{ ██║      }} \\
+&\color{#00bcd4}{\texttt{╚██████╔╝}}\color{#ffaf37}{\texttt{ ███████╗}}\color{#00bcd4}{\texttt{ ███████╗}}\color{#ffaf37}{\texttt{ ███████╗}} \\
+&\color{#00bcd4}{\texttt{ ╚═════╝ }}\color{#ffaf37}{\texttt{ ╚══════╝}}\color{#ffaf37}{\texttt{ ╚══════╝}}\color{#ffaf37}{\texttt{ ╚══════╝}}
+\end{aligned}
+$$
 
 * **GZEL** a lightweight C library for Linux. It runs directly on **OpenGL** and **XCB** without any extra bloat.
 * v26.9.1 is now stable.
