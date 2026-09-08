@@ -19,3 +19,20 @@ body{
     #texts{
         background-color: rgb(48, 76, 9);
     }
+
+.side-by-side {
+    display: flex;
+    gap: 20px; /* Space between the two boxes */
+    align-items: stretch; /* Forces both boxes to match the same height */
+}
+
+.side-by-side .div {
+    flex: 1; /* Makes them take equal width on left and right */
+}
+
+    #colors{
+        background-color: rgb(187, 136, 149);
+    }
+    #structs{
+        background-color: rgb(147, 193, 194);
+    }
