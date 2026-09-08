@@ -15,9 +15,9 @@ vec2f32 mpos                                                        // Current m
 vec2f32 press_pos                                                   // Mouse position when any mouse button being pressed
 
 void gzel_set_window(u16 width, u16 height, char *title); // Initialize window
-void gzel_window_should_close()                           // Loops until windows closes 
-void gzel_start_cycle()                                   // Poll Events and swap buffers if needed
-void gzel_end_cycle()                                     // Resets Events to get uniformed cycles
+void gzel_window_should_close();                          // Loops until windows closes 
+void gzel_start_cycle();                                  // Poll Events and swap buffers if needed
+void gzel_end_cycle();                                    // Resets Events to get uniformed cycles
 bool gzel_is_press(i16 key);                              // returns true if any Key/button is being pressed
 bool gzel_is_hold(i16 key);                               // returns true if any Key/button is being held
 bool gzel_is_release(i16 key);                            // returns true if any Key/button is being released
