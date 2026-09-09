@@ -1,9 +1,9 @@
 <pre style="font-family: monospace; font-weight: bold; line-height: 1.1;">
-<span style="color: #00bcd4;"> ██████╗ </span><span style="color: #ffaf37;">███████╗</span> <span style="color: #00bcd4;">███████╗</span> <span style="color: #ffaf37;">██╗      </span>
-<span style="color: #00bcd4;">██╔════╝ </span><span style="color: #ffaf37;">╚════██║</span> <span style="color: #00bcd4;">██╔════╝</span> <span style="color: #ffaf37;">██║      </span>
-<span style="color: #00bcd4;">██║  ███╗</span><span style="color: #ffaf37;">   ███╝ </span> <span style="color: #00bcd4;">█████╗  </span> <span style="color: #ffaf37;">██║      </span>
-<span style="color: #00bcd4;">██║   ██║</span><span style="color: #ffaf37;">  ██╔╝  </span> <span style="color: #00bcd4;">██╔══╝  </span> <span style="color: #ffaf37;">██║      </span>
-<span style="color: #00bcd4;">╚██████╔╝</span><span style="color: #ffaf37;"> ███████╗</span> <span style="color: #00bcd4;">███████╗</span> <span style="color: #ffaf37;">███████╗</span>
+<span style="color: #00bcd4;"> ██████╗ </span><span style="color: #ffaf37;">███████╗</span> <span style="color: #00bcd4;"> ███████╗</span> <span style="color: #ffaf37;">██╗      </span>
+<span style="color: #00bcd4;">██╔════╝ </span><span style="color: #ffaf37;">╚════██║</span> <span style="color: #00bcd4;"> ██╔════╝</span> <span style="color: #ffaf37;">██║      </span>
+<span style="color: #00bcd4;">██║  ███╗</span><span style="color: #ffaf37;">   ███╝ </span> <span style="color: #00bcd4;"> █████╗  </span> <span style="color: #ffaf37;">██║      </span>
+<span style="color: #00bcd4;">██║   ██║</span><span style="color: #ffaf37;">  ██╔╝  </span> <span style="color: #00bcd4;"> ██╔══╝  </span> <span style="color: #ffaf37;">██║      </span>
+<span style="color: #00bcd4;">╚██████╔╝</span><span style="color: #ffaf37;"> ███████╗</span> <span style="color: #00bcd4;"> ███████╗</span> <span style="color: #ffaf37;">███████╗</span>
 <span style="color: #00bcd4;"> ╚═════╝ </span><span style="color: #ffaf37;"> ╚══════╝</span> <span style="color: #00bcd4;">╚══════╝</span> <span style="color: #ffaf37;">╚══════╝</span>
 </pre>
 * **GZEL** a lightweight C library for Linux. It runs directly on **OpenGL** and **XCB** without any extra bloat.
