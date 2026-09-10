@@ -97,7 +97,11 @@ gcc example.c -lgzel -lxcb -lxcb-xkb -lEGL -lGL -lm -o example
 ---
 
 ## What's Next ?
+
+### Platforms:
 * [ ] WebGL via Emscripten and WebAssembly (Wasm).
-* [ ] Introduction of 3D graphics capabilities
-* [ ] OpenGL ES for Android platform support.
-* [ ] Introduction of Textures
+* [ ] OpenGL ES, Android platform support.
+
+### Features:    
+* [ ] Introduction of 3D graphics capabilities.
+* [ ] Textures
