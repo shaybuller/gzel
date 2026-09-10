@@ -25,6 +25,7 @@ For `gcc` and the Linux runtime linker (`ld.so`) to automatically discover your 
 ---
 
 ### 2. Hello Triangle
+example.c
 ```bash
 #include <gzel/gzel.h>
 
