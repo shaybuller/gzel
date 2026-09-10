@@ -22,7 +22,7 @@ For `gcc` and the Linux runtime linker (`ld.so`) to automatically discover your 
 
 > **Note:** Installing via the provided `.deb` package handles this placement automatically
 
- **If you are building manually** or placing files yourself, ensure `libgzel.so` is placed in `/usr/lib/` (or `/usr/local/lib/`) and `gzel.h` is placed in `/usr/local/include/` (or `usr/include/`).
+ **If you are placing files yourself**, ensure `libgzel.so` is placed in `/usr/lib/` (or `/usr/local/lib/`) and `gzel.h` is placed in `/usr/local/include/` (or `usr/include/`).
 
 ---
 
